@@ -1,0 +1,12 @@
+---
+layout: post
+title: "What is Big Data, Data Engineering, Data Science and Data Analytics?"
+date: 2020-05-01 11:38:00 +0530
+categories: data-science
+---
+
+![terminologies](https://user-images.githubusercontent.com/1643802/80787285-bf155d80-8ba3-11ea-88fb-3ccdcef6b68d.jpg)
+
+![Hadoop](https://user-images.githubusercontent.com/1643802/80787276-b9b81300-8ba3-11ea-8997-f9bfec8932e0.png) | **Big Data** relates to infrastructure setup and the tech used to do it. For example you might have to store terabytes of information and process them so you choose a tech and set it up so that your Data Scientist can run programs on top of this setup without having to worry about the hassles of engineering the setup and maintain the complexities involved.
+![Data-Science-Venn](https://user-images.githubusercontent.com/1643802/80787284-be7cc700-8ba3-11ea-8976-a1339c4f3c89.jpg) | **Data Scientists** write programs with their computer science algorithms and machine learning algorithms and domain knowledge to create new perspectives into the data. (A _Data Engineer_ and self service data science applications bring down the Big Data configuration work down for a Data Scientist)
+![data-analyst](https://user-images.githubusercontent.com/1643802/80787283-bde43080-8ba3-11ea-9428-82a2b18e3501.jpg) | **Data Analyst** uses all the new insights the Data Scientists provide and boils it down to decisions in his or her domain. It might be marketing or sales decisions. He requires a combination of all skills from programming to utilization of visualizing skills to draw down conclusions.
