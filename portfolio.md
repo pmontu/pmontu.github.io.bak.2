@@ -13,7 +13,7 @@ permalink: /portfolio/
 ![image-preview](https://user-images.githubusercontent.com/74305791/98818873-29139700-2452-11eb-9b6d-e20649a7eaa6.png)
 
 
-[Demo](https://www.pythoncoach.in/who-am-i/) | **_#Azure_** | **_#ReactJS_**
+[Demo](https://pmontu.github.io/who-am-i/) | **_#Azure_** | **_#ReactJS_**
 
 ---
 
@@ -50,4 +50,4 @@ permalink: /portfolio/
 
 ![Work area](https://user-images.githubusercontent.com/1643802/81935597-85663d00-960e-11ea-9cb7-6140549d1bd6.png)
 
-[Demo](http://www.pythoncoach.in/ng-student-workbook/) | **_#Angular_**
+[Demo](https://pmontu.github.io/ng-student-workbook/) | **_#Angular_**
