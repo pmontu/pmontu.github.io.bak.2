@@ -20,7 +20,7 @@
 
 title: Technology Wizardry
 author:
-  name: Master Mindful Makers
+  name: ManojKumar.Purushothaman.Meta
   email: pmanojkumarsoftware@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Technology Wizardry Recipe Ideas for Everyone
@@ -29,7 +29,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 minima:
   social_links:
-    twitter: pmontusoft
+    twitter: manojkumarp123
     github: pmontu
     # stackoverflow: "11111"
     # dribbble: jekyll
