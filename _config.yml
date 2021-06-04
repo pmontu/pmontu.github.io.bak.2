@@ -29,7 +29,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 minima:
   social_links:
-    twitter: manojkumarp123
+    twitter: manojkumarpmeta
     github: pmontu
     # stackoverflow: "11111"
     # dribbble: jekyll
