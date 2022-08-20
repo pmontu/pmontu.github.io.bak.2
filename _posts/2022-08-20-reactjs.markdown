@@ -1,0 +1,88 @@
+---
+layout: post
+title: "Reactjs Component and Elements Example"
+date: 2022-08-20 20:00:00 +0530
+categories: Frontend
+---
+
+## Output
+
+<div id="root"></div>
+
+## Script
+
+```
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+<script>
+const elem = React.createElement("h1", null, "Hello World");
+
+class Comp extends React.Component {
+  render() {
+    return React.createElement("div", null, [elem, elem, elem]);
+  }
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(React.createElement(Comp, null, null));
+</script>
+```
+
+<div id="like_button_container"></div>
+
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+<script>
+const elem = React.createElement("h1", null, "Hello World");
+
+class Comp extends React.Component {
+  render() {
+    return React.createElement("div", null, [elem, elem, elem]);
+  }
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(React.createElement(Comp, null, null));
+</script>
+
+<!-- Load our React component. -->
+<!-- <script src="like_button.js"></script> -->
+<script>
+'use strict';
+
+const e = React.createElement;
+
+class LikeButton extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { liked: false };
+  }
+
+  render() {
+    if (this.state.liked) {
+      return 'You liked this.';
+    }
+
+    return e(
+      'button',
+      { onClick: () => {this.setState({ liked: true }); console.log("there is a lot to be accomplished and very little time off work");} },
+      'Like'
+    );
+  }
+}
+
+const domContainer = document.querySelector('#like_button_container');
+const root2 = ReactDOM.createRoot(domContainer);
+root2.render(e(LikeButton));
+</script>
+
+## Resources
+
+- [Learn](https://learn.co/lessons/react-create-element)
+- [React JS](https://reactjs.org/docs/add-react-to-a-website.html)

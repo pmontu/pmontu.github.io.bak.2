@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -18,27 +18,27 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Technology Wizardry
+title: Digital Foundry
 author:
-  name: Master Mindful Makers
+  name: Manoj Kumar P
   email: pmanojkumarsoftware@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Technology Wizardry Recipe Ideas for Everyone
+  Kids Fun Playground
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 minima:
   social_links:
-    twitter: pmontusoft
+    # twitter: pmontusoft
     github: pmontu
     # stackoverflow: "11111"
     # dribbble: jekyll
-    facebook: manojkumar.p.906
+    # facebook: manojkumar.p.906
     # flickr: jekyll
     # instagram: jekyll
     linkedin: pmanojkumarsoftware
     # pinterest: jekyll
-    telegram: pmanojks
+    # telegram: pmanojks
     # microdotblog: jekyll
     # keybase: jekyll
 
@@ -55,7 +55,7 @@ minima:
     #    instance: example.com
 
     # youtube: jekyll
-    youtube_channel: UCV_8pOJffgoj5l6qRR1MOcA
+    # youtube_channel: UCV_8pOJffgoj5l6qRR1MOcA
     # youtube_channel_name: CloudCannon
 
 # Build settings
@@ -65,7 +65,6 @@ plugins:
   - jekyll-remote-theme
 
 remote_theme: jekyll/minima
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
