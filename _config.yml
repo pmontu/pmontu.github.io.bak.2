@@ -18,25 +18,26 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Digital Foundry
+title: Sustainable Sprint
 author:
-  name: Manoj Kumar P
-  email: pmanojkumarsoftware@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Kids Fun Playground
+  name: Manojkumar
+  email: 	unbound.context0o@icloud.com
+description: | # this means to ignore newlines until "baseurl:"
+  SustainableSprint: Navigating the Green Horizon.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 minima:
   social_links:
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/pmanojkumarsoftware/" }
     # twitter: pmontusoft
-    github: pmontu
+    # github: pmontu
     # stackoverflow: "11111"
     # dribbble: jekyll
     # facebook: manojkumar.p.906
     # flickr: jekyll
     # instagram: jekyll
-    linkedin: pmanojkumarsoftware
+    # linkedin: pmanojkumarsoftware
     # pinterest: jekyll
     # telegram: pmanojks
     # microdotblog: jekyll
